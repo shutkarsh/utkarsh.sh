@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    resize: none;
+    overflow: hidden;
+}
+#div1{
+    background-color: lightgreen;
+    resize: none;
+    overflow:hidden;
+    height: 100vh;
+
+}
+#name{
+    font-size: 110px;
+    font-family:Courgette;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom:0px;
+}
+#desg{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:200px;
+    margin-top:8px;
+    font-family:Courgette;
+    font-weight: bold;
+    color:grey;
+} 
+
+@font-face {
+    font-family: Courgette;
+    src: url(div1/Courgette-Regular.ttf);
+}
+#sh{
+    color:coral;
+}
+li{
+    display: inline;
+    margin-left: 300px;
+    font-size: 20px;
+    font-family: Courgette;
+    overflow:hidden;
+    resize:none;
+    }
+
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+#intro_page{
+    background-image: url(div2/div2.001.png);
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+#whoI{
+    font-family: Courgette;
+    font-size:90px;
+    color:rgb(51, 50, 133);
+    padding-left: 130px;
+    padding-top:30px;
+}
+.who_text{
+    font-family:Courgette;
+    font-size:24px;
+    color:chocolate;
+    width:1000px;
+    padding-left: 100px;
+    padding-top: 180px;
+    word-spacing: 9px;
+
+
+}
+#pro_page{
+    background-image:url(div3/div3.001.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+
+}
+th{
+    font-size: 30px;
+    color:rgb(88, 86, 90);
+    text-transform: uppercase;
+
+}
+th,td{
+    padding:7px 7px 7px 7px;
+}
+#table{
+    margin-left:250px;
+}
+table{
+    border-spacing:100px;
+}
+#link_sh{
+    color: burlywood;
+    text-decoration: dotted;
+}
+#link_sh:hover{
+    color: brown;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+.home_button{
+    font-size: 18px;
+    color: rgb(27, 51, 51);
+    font-weight: bolder;
+    text-align: right;
+    margin-top:2000px;
+    padding-left:1000px;
+    
+}
+#soc_page{
+    background-image: url(div4/div4p.001.png);
+    background-size: no-repeat;
+    background-size: cover;
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+.twitter_gif{
+    height: 50px;
+    width:50px;
+}
+.discord_logo{
+    height: 50px;
+    width:50px;
+}
+.github_logo{
+    height: 50px;
+    width:50px;
+}
+#handles{
+    font-size:30px;
+    color:darkgrey;
+    display: inline-block;
+}
+
+.twitter{
+    height:max-content;
+    width: max-content;
+    margin-bottom:20px;
+    margin-top:350px;
+    margin-left:500px;
+    font-family: Courgette;
+    
+    
+
+
+}
+.discord{
+    height:max-content;
+    width: max-content;
+    margin-left:500px;
+    font-family: Courgette;
+    margin-bottom:20px;
+    margin-top:50px;
+
+}
+.github{
+    height:max-content;
+    width: max-content;
+    margin-left:500px;
+    font-family: Courgette;
+    margin-top:50px;
+
+}
+.return_button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    font-size: 24px;
+    margin-top:80px;
+    margin-left:1300px;
+    padding-top:80px;
+}
